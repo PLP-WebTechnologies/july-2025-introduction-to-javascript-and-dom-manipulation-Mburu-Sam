@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
+  <title>JavaScript Functions</title>
+</head>
+<body>
+  <h1>JavaScript  Function</h1>
+
+  <p id="intro">
+    Functions make code reusable, bellow is some examples..
+  </p>
+<div>
+
+  <h2>Greeting Function</h2>
+  <input type="text" id="name" placeholder="Enter your name">
+  <button onclick="greetUser()">Greet Me</button>
+  <p id="greetOutput"></p>
+</div>
+
+<div>
+  <h2>Voting Eligibility Function</h2>
+  <input type="number" id="age" placeholder="Enter your age">
+  <button onclick="checkVoting()">Check Eligibility</button>
+  <p id="voteOutput"></p>
+</div>
+
+  <div>
+  <h2>Total Calculator Function</h2>
+  <input type="number" id="num1" placeholder="Number 1">
+  <input type="number" id="num2" placeholder="Number 2">
+  <button onclick="calculateTotal()">Calculate Total</button>
+  <p id="totalOutput"></p>
+  </div>
+
+  <div>
+  <h2>Toggle Content Function</h2>
+  <button onclick="toggleContent()">Show/Hide Info</button>
+  <p id="toggleText" style="display:none;">
+    This text is toggled using a function!
+  </p>
+  </div>
+
+  <div>
+    <h1>JavaScript Loops</h1>
+
+  <h2>For Loop: Generate List of Numbers</h2>
+  <button onclick="generateNumbers()">Show Numbers 1–10</button>
+  <ul id="numberList"></ul>
+
+  <h2>While Loop: Countdown</h2>
+  <button onclick="startCountdown()">Start Countdown (5)</button>
+  <p id="countdownOutput"></p>
+
+  <h2>forEach Loop: List of Fruits</h2>
+  <button onclick="showFruits()">Show Fruits</button>
+  <ul id="fruitList"></ul>
+  </div>
+  </ul>
+  
+    <script src="js/script.js"></script>       
+</body>
+</html>
